@@ -185,6 +185,8 @@ html, body {
           <div class="ui tab segment lab" data-tab="01">
             <h1>if (statement and expression)</h1>
 <p>In this part of the lab, we will work on the syntax for flow of control in our kotlin programs, focusing on the <em>if</em> as a statement and also as an expression.</p>
+<h2>Run IntelliJ as an Administrator</h2>
+<p>On the college computers, don&#39;t run IntelliJ as normal.  Instead, run it as Adminisrator by right clicking on the Icon and selecting the option <em>Run as Administrator</em>.</p>
 <h2>New Project in IntelliJ</h2>
 <p>In IntelliJ, create a new project.  When the <em>New Project</em> window appears, remember to choose:</p>
 <ul>
@@ -201,7 +203,7 @@ html, body {
 <p>When the window appears, enter the class name in the format of <em>packagename.classname</em> i.e. <strong>ie.wit.controlflow.main</strong> and click ok.</p>
 <h2>if as a statement</h2>
 <p>Enter the following code into this new file:</p>
-<pre><code>fun main() {
+<pre><code>fun main(args: Array&lt;String&gt;) {
     maxOf(4, 6)
 }
 
@@ -218,12 +220,14 @@ fun maxOf(a: Int, b: Int) {
     }
 }</code></pre>
 <p>Run the code.  You should have output similar to this:</p>
-<p><strong><em>b is greater than a.  The max number is 6</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is 6</em></p>
+</blockquote>
 <p>This is the traditional form of if-statement that we are used to in Java.</p>
 <h2>Method with return type</h2>
 <p>We are going to rewrite the above code so that we don&#39;t store the maximum value in the local variable <em>max</em>...instead we will return the max value to the <em>main</em> method and print it out from there.</p>
 <p>Refactor your code so that it now looks like this:</p>
-<pre><code>fun main() {
+<pre><code>fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6));
 }
 
@@ -238,7 +242,9 @@ fun maxOf(a: Int, b: Int) : Int {
 }</code></pre>
 <p>Note in the code above that we explicitly define a return type for a method by including a colon followed by a type i.e.  <strong>: Int</strong></p>
 <p>When you run this code, you should have something like this printed to the console:</p>
-<p><strong><em>The max number is: 6</em></strong></p>
+<blockquote>
+<p><em>The max number is: 6</em></p>
+</blockquote>
 <h2>if as an expression</h2>
 <p>In Kotlin, the <strong>if</strong> is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.</p>
 <p>As the <strong>if</strong> is an expression in Kotlin, we can rewrite our <strong>maxOf</strong> method like so:</p>
@@ -258,7 +264,9 @@ fun maxOf(a: Int, b: Int) =
         b
     }</code></pre>
 <p>When you run the code, you should now have the following output printed to the console:</p>
-<p><strong><em>b is greater than a.  The max number is: 6</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+</blockquote>
 <h2>if as an expression (else is mandatory)</h2>
 <p>Try remove the else code block from the <em>maxOf</em> method.  The following error should be generated:</p>
 <p><img src="img/03.png" alt=""></p>
@@ -271,7 +279,7 @@ fun maxOf(a: Int, b: Int) =
             <h1>when (switch in Java)</h1>
 <p>Continuing with kotlin flow of control, we will now look at the <em>when</em> construct.</p>
 <p>Currently your main class should look like this:</p>
-<pre><code>fun main() {
+<pre><code>fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6));
 }
 
@@ -285,7 +293,7 @@ fun maxOf(a: Int, b: Int) =
         b
     }</code></pre>
 <p>We will now add <em>when</em> functionality to it.</p>
-<h1>when</h1>
+<h2>when</h2>
 <p>The <em>when</em> construct is equivalent to <em>switch</em> in Java, but it is more powerful.  Type in the following code into your <em>main</em> class:</p>
 <pre><code>//when construct
 fun printValue(value : Int){
@@ -299,13 +307,15 @@ fun printValue(value : Int){
     }</code></pre>
 <p>In particular, note the <em>range</em> operator e.g. 3..5
 Also note that there is an <em>else</em> portion included.  We should include our curly brackets with the else (a warning is generated otherwise).</p>
-<p>Run this code by adding the followinf function call to your main method:</p>
+<p>Run this code by adding the following function call as the last statement in your main function:</p>
 <pre><code>    printValue(3)</code></pre>
 <p>The following output should be printed to your console:</p>
-<p><strong><em>b is greater than a.  The max number is: 6
-The value is between Three and Five</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is between Three and Five</em></p>
+</blockquote>
 <h2>when (combining conditions with a comma)</h2>
-<p>We can combine branch conditions with a comma (update your code with this):</p>
+<p>We can combine branch conditions with a comma (update your code with the 6,7,8 case):</p>
 <pre><code>//when construct
 fun printValue(value : Int){
     when(value) {
@@ -319,10 +329,13 @@ fun printValue(value : Int){
     }
 }</code></pre>
 <p>and change your method call in <em>main</em> to be <em>printValue (7)</em> so that it invokes your new code.  The following should be printed to the console:</p>
-<p><strong><em>b is greater than a.  The max number is: 6
-The value is either Six, Seven or Eight</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is either Six, Seven or Eight</em></p>
+</blockquote>
 <h2>when (!in and in)</h2>
-<p>We can use <em>!in</em> as well as <em>in</em>.  Write the following new function to use these capabilities and invoke it from <em>main</em> using <em>printRange(30)</em>:</p>
+<p>We can use <em>!in</em> as well as <em>in</em>.  </p>
+<p>Write the following new function to use these capabilities and invoke it from <em>main</em> using <em>printRange(30)</em>:</p>
 <pre><code>fun printRange(value: Int){
     when(value){
         in 1..10 -&gt; println (&quot;Between 1..10&quot;);
@@ -330,11 +343,14 @@ The value is either Six, Seven or Eight</em></strong></p>
     }
 }</code></pre>
 <p>When you run it, you should have the following output:</p>
-<p><strong><em>b is greater than a.  The max number is: 6
-The value is either Six, Seven or Eight
-Outside 10..20</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is either Six, Seven or Eight</em></p>
+<p><em>Outside 10..20</em></p>
+</blockquote>
 <h2>when (arbitrary expressions as conditions)</h2>
-<p>We can use arbitrary expressions as branch conditions.  Write the following new function to use this capability and invoke it from <em>main</em> using <em>printExpressionResult(12, &quot;12&quot;)</em>:</p>
+<p>We can use arbitrary expressions as branch conditions.  </p>
+<p>Write the following new function to use this capability and invoke it from <em>main</em> using <em>printExpressionResult(12, &quot;12&quot;)</em>:</p>
 <pre><code>fun printExpressionResult(numberValue: Int, stringValue: String){
     when (numberValue){
         parseInt(stringValue) -&gt; println(&quot;stringValue holds the same number as numberValue&quot;)
@@ -344,12 +360,15 @@ Outside 10..20</em></strong></p>
     }
 }</code></pre>
 <p>When you run it, you should have the following output:</p>
-<p><strong><em>b is greater than a.  The max number is: 6
-The value is either Six, Seven or Eight
-Outside 10..20
-stringValue holds the same number as numberValue</em></strong></p>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is either Six, Seven or Eight</em></p>
+<p><em>Outside 10..20</em></p>
+<p><em>stringValue holds the same number as numberValue</em></p>
+</blockquote>
 <h2>when (!is and is)</h2>
-<p>We can use <em>!is</em> as well as <em>is</em>.  Write the following new function to use these capabilities and invoke it from <em>main</em> using <em>printInferredType()</em>:</p>
+<p>We can use <em>!is</em> as well as <em>is</em>.  </p>
+<p>Write the following new function to use these capabilities and invoke it from <em>main</em> using <em>printInferredType()</em>:</p>
 <pre><code>fun printInferredType(){
     val number = 3;
     when(number){
@@ -357,14 +376,14 @@ stringValue holds the same number as numberValue</em></strong></p>
     }
 }</code></pre>
 <p>When you run it, you should have the following output:</p>
-<hr>
-<p>b is greater than a.  The max number is: 6
-The value is either Six, Seven or Eight
-Outside 10..20
-stringValue holds the same number as numberValue
-My inferred type is Int</p>
-<hr>
-<h1>when (no argument)</h1>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is either Six, Seven or Eight</em></p>
+<p><em>Outside 10..20</em></p>
+<p><em>stringValue holds the same number as numberValue</em></p>
+<p><em>My inferred type is Int</em></p>
+</blockquote>
+<h2>when (no argument)</h2>
 <p><em>when</em> can also be used as a replacement for an <em>if-else</em> chain. </p>
 <p>If no argument is supplied, the branch conditions are simply boolean expressions, and a branch is executed when its condition is true.</p>
 <p>Write the following new function and invoke it from <em>main</em> and invoke it using <em>printAnimal(&quot;Guinea pig&quot;)</em>:</p>
@@ -380,14 +399,14 @@ My inferred type is Int</p>
     }
 }</code></pre>
 <p>When you run it, you should have the following output:</p>
-<hr>
-<p>b is greater than a.  The max number is: 6
-The value is either Six, Seven or Eight
-Outside 10..20
-stringValue holds the same number as numberValue
-My inferred type is Int
-A pig of some sort</p>
-<hr>
+<blockquote>
+<p><em>b is greater than a.  The max number is: 6</em></p>
+<p><em>The value is either Six, Seven or Eight</em></p>
+<p><em>Outside 10..20</em></p>
+<p><em>stringValue holds the same number as numberValue</em></p>
+<p><em>My inferred type is Int</em></p>
+<p><em>A pig of some sort</em></p>
+</blockquote>
 <p>Change the invoking of the method to ensure that another branch is invoked when you run the code e.g. <strong>printAnimal(&quot;&quot;)</strong>, <strong>printAnimal(&quot;elephant&quot;)</strong></p>
 <p>Save your work, but keep the project open.</p>
 
@@ -418,13 +437,13 @@ A pig of some sort</p>
     println(describe(2))
     println(describe(&quot;other&quot;))</code></pre>
 <p>The last few lines of your console output should now be:</p>
-<hr>
-<p>One
-A Greeting
-Long Var
-Not a String
-Unknown</p>
-<hr>
+<blockquote>
+<p><em>One</em></p>
+<p><em>A Greeting</em></p>
+<p><em>Long Var</em></p>
+<p><em>Not a String</em></p>
+<p><em>Unknown</em></p>
+</blockquote>
 <p>Now let&#39;s enhance this new function by eliminating the <em>result</em> variable (try use IntelliJs Alt+Enter to make this change) :</p>
 <pre><code>fun describe(obj: Any): String {
 
@@ -491,7 +510,7 @@ Unknown</p>
 <p>If you need it, the solution to this step is here:</p>
 <pre><code>import java.lang.Integer.parseInt
 
-fun main() {
+fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6))
     println(printValue(7))
     printRange(30)
@@ -575,9 +594,11 @@ fun describe(obj: Any): String = when (obj){
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>    forEachStandard()</code></pre>
 <p>When run, the last few lines of the console output should now be:</p>
-<pre><code>Item is: apple
-Item is: banana
-Item is: kiwi</code></pre>
+<blockquote>
+<p><em>Item is: apple</em></p>
+<p><em>Item is: banana</em></p>
+<p><em>Item is: kiwi</em></p>
+</blockquote>
 <h2>for-each with indices</h2>
 <p>Add the following method to your main class:</p>
 <pre><code>fun forEachIndices(){
@@ -589,9 +610,11 @@ Item is: kiwi</code></pre>
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>   forEachIndices()</code></pre>
 <p>When run, the last few lines of the console output should now be:</p>
-<pre><code>Item at 0 is: apple
-Item at 1 is: banana
-Item at 2 is: kiwi</code></pre>
+<blockquote>
+<p><em>Item at 0 is: apple</em></p>
+<p><em>Item at 1 is: banana</em></p>
+<p><em>Item at 2 is: kiwi</em></p>
+</blockquote>
 <h2>for-each withIndex library function</h2>
 <p>This is another way of accessing the indices like above.</p>
 <p>Add the following method to your main class:</p>
@@ -604,15 +627,17 @@ Item at 2 is: kiwi</code></pre>
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>    forEachWithIndex()</code></pre>
 <p>When run, the last few lines of the console output should now be:</p>
-<pre><code>The item at 0 is: apple
-The item at 1 is: banana
-The item at 2 is: kiwi</code></pre>
+<blockquote>
+<p><em>The item at 0 is: apple</em></p>
+<p><em>The item at 1 is: banana</em></p>
+<p><em>The item at 2 is: kiwi</em></p>
+</blockquote>
 <p>Save your work and keep the project open.</p>
 <h2>Solution - so far</h2>
 <p>If you need it, the completed code so far is here:</p>
 <pre><code>import java.lang.Integer.parseInt
 
-fun main() {
+fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6))
     println(printValue(7))
     printRange(30)
@@ -725,9 +750,11 @@ fun forEachWithIndex(){
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>whileWithList()</code></pre>
 <p>When run, the last few lines of the console output should now be:</p>
-<pre><code>Item at index: 0 is: apple
-Item at index: 1 is: banana
-Item at index: 2 is: kiwi</code></pre>
+<blockquote>
+<p><em>Item at index: 0 is: apple</em></p>
+<p><em>Item at index: 1 is: banana</em></p>
+<p><em>Item at index: 2 is: kiwi</em></p>
+</blockquote>
 <h2>do-while loop</h2>
 <p>Add the following method to your main class:</p>
 <pre><code>fun doWhileExample(){
@@ -740,17 +767,19 @@ Item at index: 2 is: kiwi</code></pre>
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>  doWhileExample()</code></pre>
 <p>When run, the last few lines of the console output should now be:</p>
-<pre><code>Do While Index is: 0
-Do While Index is: 1
-Do While Index is: 2
-Do While Index is: 3
-Do While Index is: 4</code></pre>
+<blockquote>
+<p><em>Do While Index is: 0</em></p>
+<p><em>Do While Index is: 1</em></p>
+<p><em>Do While Index is: 2</em></p>
+<p><em>Do While Index is: 3</em></p>
+<p><em>Do While Index is: 4</em></p>
+</blockquote>
 <p>Save your work and keep the project open.</p>
 <h2>Solution - so far</h2>
 <p>If you need it, the completed code so far is here:</p>
 <pre><code>import java.lang.Integer.parseInt
 
-fun main() {
+fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6))
     println(printValue(7))
     printRange(30)
@@ -882,7 +911,9 @@ fun doWhileExample(){
 <p>And call it by including this statement as the last statement in the <em>main</em> function:</p>
 <pre><code>    whileWithStrings()</code></pre>
 <p>When run, the last line of the console output should now be:</p>
-<pre><code>An escaped string!</code></pre>
+<blockquote>
+<p><em>An escaped string!</em></p>
+</blockquote>
 <h2>raw strings</h2>
 <p>A raw string is delimited by a triple quote (&quot;&quot;&quot;), contains no escaping and can contain new lines and any other characters.</p>
 <p>Update the workingWithStrings function like so (declaring einstein variable and printing it out):</p>
@@ -901,12 +932,14 @@ fun doWhileExample(){
     println(einstein)
 }</code></pre>
 <p>When run, the last lines of the console output should now be:</p>
-<pre><code>Learn from yesterday
-Live for today
-Hope for tomorrow
-The important thing
-is not to stop questioning.
-(Albert Einstein)</code></pre>
+<blockquote>
+<p><em>Learn from yesterday</em></p>
+<p><em>Live for today</em></p>
+<p><em>Hope for tomorrow</em></p>
+<p><em>The important thing</em></p>
+<p><em>is not to stop questioning.</em></p>
+<p><em>(Albert Einstein)</em></p>
+</blockquote>
 <p>Now update the workingWithStrings function like so (declaring franklin variable and printing it out):</p>
 <pre><code>fun workingWithStrings(){
     val aString = &quot;An escaped string!\n&quot;
@@ -931,10 +964,12 @@ is not to stop questioning.
     println(franklin)
 }</code></pre>
 <p>When run, the last lines of the console output should now be (note how Benjamin Franklin is indented in your console):</p>
-<pre><code>Tell me and I forget.
-Teach me and I remember.
-Involve me and I learn.
-  (Benjamin Franklin)</code></pre>
+<blockquote>
+<p><em>Tell me and I forget.</em></p>
+<p><em>Teach me and I remember.</em></p>
+<p><em>Involve me and I learn.</em></p>
+<p><em>&nbsp;&nbsp;(Benjamin Franklin)</em></p>
+</blockquote>
 <p>Save your work and keep the project open.</p>
 
           </div>
@@ -992,10 +1027,12 @@ Involve me and I learn.
 <p>Add this function call as the last statement in your <em>main</em> function:</p>
 <pre><code>   workingWithTemplates()</code></pre>
 <p>The last few statements in the console output should be:</p>
-<pre><code>Simple names: This is a String and this is another String
-Expressions (cases): THIS IS A STRING and this is another string
-Expressions (string size): first string is 16
-Expressions (substring): Th</code></pre>
+<blockquote>
+<p><em>Simple names: This is a String and this is another String</em></p>
+<p><em>Expressions (cases): THIS IS A STRING and this is another string</em></p>
+<p><em>Expressions (string size): first string is 16</em></p>
+<p><em>Expressions (substring): Th</em></p>
+</blockquote>
 <p>Save your work and keep the project open.</p>
 
           </div>
@@ -1070,7 +1107,7 @@ null (nullable references) and those that cannot (non-null references).</p>
 <p>Should you need it, the solution for the lab is here:</p>
 <pre><code>import java.lang.Integer.parseInt
 
-fun main() {
+fun main(args: Array&lt;String&gt;) {
     println(&quot;The max number is: &quot; + maxOf(4, 6))
     println(printValue(7))
     printRange(30)
