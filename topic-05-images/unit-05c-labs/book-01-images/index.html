@@ -363,7 +363,7 @@ fun showImagePicker(parent: Activity, id: Int) {
 <p>Notice that this is just a function, not a class or an object. Its purpose is to show an image picker dialog.</p>
 <p>We will now trigger this dialog. When starting an activity like this, we usually define a special code - which we will expect the new activity to send back when it is finished (otherwise we might get confused as to which activity has just finished).</p>
 <p>Here is the id we invent - make it a class member of PlacemakerActivity:</p>
-<h2>PlacemakerActivity</h2>
+<h2>PlacemarkActivity</h2>
 <pre><code>  val IMAGE_REQUEST = 1</code></pre>
 <p>Then to trigger the picker, update the listener code to:</p>
 <pre><code>    chooseImage.setOnClickListener {
