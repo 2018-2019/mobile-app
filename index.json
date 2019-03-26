@@ -1,0 +1,1237 @@
+
+
+
+  {
+  
+  
+    "properties" : {"highlightstyle":"railscasts","slack":"https://mobileappdevw-mee3871.slack.com/messages/DFK5G3C73","credits":"Eamonn de Leastar, WIT, Rob O'Connor, WIT, Siobhán Drohan, WIT","courseurl":"https://2018-2019.github.io/mobile-app/","moodle":"https://moodle.wit.ie/course/view.php?id=141324","license":"Unless otherwise stated, this work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."},
+  
+  "type" : "course",
+  "title" : "Android Programming with Kotlin ",
+  "img" : "",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "mobile-app",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "topics" : [  {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "00: Assignments ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>This area contains the assignment for the semester.  This module is 100% CA.</p>",
+  "folder" : "topic-00-assignments",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Assignment ",
+  "img" : "a-assignment-2019.png",
+  "videoid" : "none",
+  "objectives" : "<p>There is one assignment for this module, with an interim submission during the semester.</p>",
+  "folder" : "talk-1-assignment",
+  "link" : "a-assignment-2019.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "01: Kotlin Introduction ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Trace the influences on the Kotlin Programming language. Explore the Kotlin syntax, with a focus on variables, types and functions.</p>",
+  "folder" : "topic-01-kotlin-intro",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-introduction/a-kotlin-overview.jpeg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-01a-kotlin-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Kotlin Overview ",
+  "img" : "a-kotlin-overview.jpeg",
+  "videoid" : "SQZ7o8W5TU4",
+  "objectives" : "<p>Here we introduce you to the Kotlin Programming Language and explore it in the context of Java.  We will also ready Eclipse for using Kotlin.</p>",
+  "folder" : "talk-1-introduction",
+  "link" : "a-kotlin-overview.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Kotlin Syntax (1 of 2) ",
+  "img" : "b-kotlin-syntax-1.png",
+  "videoid" : "eb_GTUpf-88",
+  "objectives" : "<p>An overview of Kotlin&#39;s syntax, with particular focus on the constructs we covered in Java.</p>",
+  "folder" : "talk-2-kotlin-syntax-1",
+  "link" : "b-kotlin-syntax-1.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Kotlin Syntax (2 of 2) ",
+  "img" : "c-kotlin-syntax-2.png",
+  "videoid" : "O1yHhXI_gyQ",
+  "objectives" : "<p>An deeper overview of Kotlin&#39;s syntax, with particular focus on collections, classes and functional programming.</p>",
+  "folder" : "talk3-kotlin-syntax-2",
+  "link" : "c-kotlin-syntax-2.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-01-intro-to-kotlin/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-01b-kotlin-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Kotlin Lab-01 Intro",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Introduction to Kotlin and the IntelliJ IDEA.</p>",
+  "folder" : "book-01-intro-to-kotlin",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Kotlin Lab-02 Control Flow",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Introduction to Control Flow in Kotlin and also Strings and Null Safety.</p>",
+  "folder" : "book-02-control-flow",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Kotlin Lab-03 Classes + Collections",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Introduction to Kotlin Classes and Collections.</p>",
+  "folder" : "book-03-classes-and-collections",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "02: Activities ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Trace the influences on the Kotlin Programming language. Create and explore a starter Kotlin Android application in detail.</p>",
+  "folder" : "topic-02-activity",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-01-android-anatomy/01-android-anatomy.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-02a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Android: Anatomy ",
+  "img" : "01-android-anatomy.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>A first look at the architecture of an Android application.</p>",
+  "folder" : "talk-01-android-anatomy",
+  "link" : "01-android-anatomy.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-00-getting-started/img/main.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-02b-android-activitiy",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01a Intro",
+  "img" : "img/main.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Download and configure Android Studio (if you have your own computer). Generate and run a sample application.</p>",
+  "folder" : "book-00-getting-started",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01b Activities",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Layout the PlacemarkActivity - supporting create/edit of placemarks</p>",
+  "folder" : "book-01-activity",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "03: Adapters ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Look at Kotlin in more depth. Deep dive into some of its features. Extend the app to manage lists of placemarks using the adapter pattern.</p>",
+  "folder" : "topic-03-adapters",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Android Adapters ",
+  "img" : "talk-01-foundation/01-foundation.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-03a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Android: Foundation ",
+  "img" : "01-foundation.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>A first look at the structure of an Android application a Kotlin activity.</p>",
+  "folder" : "talk-01-foundation",
+  "link" : "01-foundation.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Android Application Object ",
+  "img" : "app-object.png",
+  "videoid" : "none",
+  "objectives" : "<p>This class enables a global application object to be defined, accessible from all activities</p>",
+  "folder" : "talk-02-app-objects",
+  "link" : "app-object.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Recycler View + Adapters ",
+  "img" : "adapter.png",
+  "videoid" : "none",
+  "objectives" : "<p>Managing lists is facilitated by the RecyclerView + Adapters - 2 key patterns in Android development</p>",
+  "folder" : "talk-03-adapters",
+  "link" : "adapter.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Android Labs ",
+  "img" : "book-01-adapters/img/main.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-03b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-02 Adapters",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Introduce new activity to display a list of placemarks. Support adding to this list.</p>",
+  "folder" : "book-01-adapters",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "04: Models ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Examine key Kotlin Idioms. Start comparing simple Java &amp; Kotlin statements. Introduce a more complete model into Placemark.</p>",
+  "folder" : "topic-04-models",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Kotlin Idioms ",
+  "img" : "talk-1-idioms/02-idioms.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Kotlin Idioms</p>",
+  "folder" : "unit-04a-kotlin-idioms",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Idioms ",
+  "img" : "02-idioms.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>A tour of the common idioms in Kotlin</p>",
+  "folder" : "talk-1-idioms",
+  "link" : "02-idioms.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "J2K Variables & Expressions ",
+  "img" : "a-J2k-variables.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Snippets of the same code in Java &amp; Kotlin</p>",
+  "folder" : "talk-2-j2k-variables",
+  "link" : "a-J2k-variables.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Android Models ",
+  "img" : "talk-01-toolbar/toolbar.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-04b-android-models",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Toolbar ",
+  "img" : "toolbar.png",
+  "videoid" : "none",
+  "objectives" : "<p>The Android Support Library implements AppCompatActivity + a range of general purpose components, including a ToolBar</p>",
+  "folder" : "talk-01-toolbar",
+  "link" : "toolbar.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Memory Store ",
+  "img" : "store.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Abstract the Placemarks data structure into PlacemarkStore interface + in-memory implementation.</p>",
+  "folder" : "talk-02-store",
+  "link" : "store.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Adapter + Listener ",
+  "img" : "adapter-listener.png",
+  "videoid" : "none",
+  "objectives" : "<p>Equip the Adapter with a Listener interface. Use this interface to communicate from the adapter to the host Activity</p>",
+  "folder" : "talk-03-adapter-listeners",
+  "link" : "adapter-listener.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Parcelable ",
+  "img" : "parcelable.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Encapsulate model data for transmission between Activities</p>",
+  "folder" : "talk-04-parcelable",
+  "link" : "parcelable.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Android Labs ",
+  "img" : "book-01-models/img/main.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Android Labs</p>",
+  "folder" : "unit-04c-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-03 Models",
+  "img" : "img/main.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Application object + Model classes to manage placemarks.</p>",
+  "folder" : "book-01-models",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "05: Images ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>A more detailed look at the fundamental types in Kotlin. How to manage images in android, including selecting and displaying images from the phone gallery.</p>",
+  "folder" : "topic-05-images",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Kotlin Deep Dive ",
+  "img" : "talk-1-kotlin-types/types.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-05a-kotlin-types-and-packages",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Types ",
+  "img" : "types.png",
+  "videoid" : "none",
+  "objectives" : "<p>Summary of the basic types in the Kotlin programming language</p>",
+  "folder" : "talk-1-kotlin-types",
+  "link" : "types.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "J2K Collections ",
+  "img" : "d-j2k-collections.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Collection examples: Java &amp; Kotlin equivalents</p>",
+  "folder" : "talk-2-j2k-collections",
+  "link" : "d-j2k-collections.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Android Lectures (Images) ",
+  "img" : "talk-00-android-platform/android-platform.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-05b-images",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Android Platform, Components & Activities ",
+  "img" : "android-platform.png",
+  "videoid" : "none",
+  "objectives" : "<p>Key features of the platform, the principle components + the activity model</p>",
+  "folder" : "talk-00-android-platform",
+  "link" : "android-platform.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Resources ",
+  "img" : "resources.png",
+  "videoid" : "none",
+  "objectives" : "<p>A general term for all layout, strings, bitmaps and other XML artefacts in an Android Project</p>",
+  "folder" : "talk-01-resources",
+  "link" : "resources.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Model Updates ",
+  "img" : "model-updates.png",
+  "videoid" : "none",
+  "objectives" : "<p>Creating and updating a Placemark. Updating the placemark list.</p>",
+  "folder" : "talk-02-model-updates",
+  "link" : "model-updates.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Images ",
+  "img" : "android-images.png",
+  "videoid" : "none",
+  "objectives" : "<p>Support selecting image from phone gallery, and then displaying them in an activity.</p>",
+  "folder" : "talk-03-android-images",
+  "link" : "android-images.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs (Images)  ",
+  "img" : "book-01-images/img/main.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-05c-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04 Images",
+  "img" : "img/main.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Allow an image to be selected from the phones photos, and stored with the placemark</p>",
+  "folder" : "book-01-images",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "06: Maps ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Review Kotlin Packages + Control flow. Introducing Google Maps into and android app.</p>",
+  "folder" : "topic-06-map-activity",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Kotlin Packages & Control Flow ",
+  "img" : "talk-01-kotlin-packages/packages.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-06a-kotlin-packages-and-control-flow",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Kotlin Packages ",
+  "img" : "packages.png",
+  "videoid" : "none",
+  "objectives" : "<p>Source files start with a package declaration. This can be used to access (import) features from the source file.</p>",
+  "folder" : "talk-01-kotlin-packages",
+  "link" : "packages.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Kotlin Control Flow ",
+  "img" : "control-flow-and-ranges.png",
+  "videoid" : "none",
+  "objectives" : "<p>if, when, for and while statements</p>",
+  "folder" : "talk-02-kotlin-control-flow",
+  "link" : "control-flow-and-ranges.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "J2K Control Flow ",
+  "img" : "b-j2k-control-structures.png",
+  "videoid" : "none",
+  "objectives" : "<p>Control flow examples in Java and Kotlin</p>",
+  "folder" : "talk-3-j2k-control",
+  "link" : "b-j2k-control-structures.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "GoogleMap Activity ",
+  "img" : "talk-01-architecture/arch.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-06b-map-activity",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "App Structure ",
+  "img" : "arch.png",
+  "videoid" : "none",
+  "objectives" : "<p>Key classes and relationships in the application.</p>",
+  "folder" : "talk-01-architecture",
+  "link" : "arch.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Map Activity ",
+  "img" : "google-map.png",
+  "videoid" : "none",
+  "objectives" : "<p>Google Map Activity can be inserted into an app via a Wizard from Studio. API Keys must be acquired from google directly.</p>",
+  "folder" : "talk-02-google-map",
+  "link" : "google-map.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Cameras & Markers ",
+  "img" : "markers.png",
+  "videoid" : "none",
+  "objectives" : "<p>These abstractions enable the map view to be manipulated programatically, and facilitate direct manipulation by the user.</p>",
+  "folder" : "talk-03-markers",
+  "link" : "markers.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs - GoogleMap Activity ",
+  "img" : "book-01-maps/img/main.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-06c-lab",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-05 MapActivity",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Include a MapActivity, enabling the user to select the location of the placemark</p>",
+  "folder" : "book-01-maps",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "07: Persistence ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Kotlin Classes in detail. New Placemark Store class to save placemarks to the file system.</p>",
+  "folder" : "topic-07-persistence",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Kotlin Classes I ",
+  "img" : "talk-1-classes-1/classes-1.png",
+  "videoid" : "",
+  "objectives" : "<p>Kotlin Classes I</p>",
+  "folder" : "unit-07a-classes-and-inheritance",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Classes & Inheritance ",
+  "img" : "classes-1.png",
+  "videoid" : "jJXS2ugUSDo",
+  "objectives" : "<p>In kotlin, classes are more concise, explicit and fine-grained then Java</p>",
+  "folder" : "talk-1-classes-1",
+  "link" : "classes-1.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "J2K: Functions ",
+  "img" : "c-j2k-functions.png",
+  "videoid" : "9LCThThqt_M",
+  "objectives" : "<p>Functions in Java &amp; Kotlin</p>",
+  "folder" : "talk-2-j2k-functions",
+  "link" : "c-j2k-functions.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Persistence ",
+  "img" : "talk-1-file-formats/b-file-formats.png",
+  "videoid" : "",
+  "objectives" : "<p>Korlin classes &amp; Inheritance. Storing and retrieving placemarks. JSON file serialization</p>",
+  "folder" : "unit-07b-json",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "File Formats ",
+  "img" : "b-file-formats.png",
+  "videoid" : "keX5uAxghiI",
+  "objectives" : "<p>When a simple file persistence strategy, CSV, Name/Value, YAML, XML &amp; JSON are all potential candidate formats for file-based storage.</p>",
+  "folder" : "talk-1-file-formats",
+  "link" : "b-file-formats.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "JSON ",
+  "img" : "json.gif",
+  "videoid" : "EhZyDHwuqhU",
+  "objectives" : "<p>A detailed look at the syntax of JSON</p>",
+  "folder" : "talk-2-json",
+  "link" : "json.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "JSON Store ",
+  "img" : "placemarkj-json.png",
+  "videoid" : "6KRlpPhFNsc",
+  "objectives" : "<p>A new PlacemarkStore implementation - PlacemarkJSONStore - to persist placemarks to a JSON file.</p>",
+  "folder" : "talk-2-placemark-json",
+  "link" : "placemarkj-json.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-06 JSON",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Save and restore placemarks from a JSON formatted file</p>",
+  "folder" : "book-01-json",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "08: Layouts ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Kotlin properties, fields, &amp; interfaces. Constraint Layout. Introduce activity to display all placemark locations + details.</p>",
+  "folder" : "topic-08-layouts",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Kotlin Classes ",
+  "img" : "talk-1-properties-and-fields/properties-and-fields.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-08a-classes-2",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Properties & Fields ",
+  "img" : "properties-and-fields.png",
+  "videoid" : "none",
+  "objectives" : "<p>Kotlin properties and fields offer a richer set of features and variants over Java</p>",
+  "folder" : "talk-1-properties-and-fields",
+  "link" : "properties-and-fields.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "J2K : Classes ",
+  "img" : "f-j2k-classes-and-objects.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Classes in Java &amp; Kotlin</p>",
+  "folder" : "talk-3-j2k-classes-and-objects",
+  "link" : "f-j2k-classes-and-objects.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Layouts ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Constraint layout. Managing embedded maps. Initialisation and manipulation.</p>",
+  "folder" : "unit-08b-map-view",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Constraint Layout ",
+  "img" : "constraint.png",
+  "videoid" : "none",
+  "objectives" : "<p>ConstraintLayout allows you to create large and complex layouts with a flat view</p>",
+  "folder" : "talk-a-constraint-layout",
+  "link" : "constraint.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Overall Map Activity ",
+  "img" : "map.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Introduce an activity to display all placemarks on a single map.</p>",
+  "folder" : "talk-b-overall-map",
+  "link" : "map.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-07 MapView",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Display all placemarks on a map in a new activity</p>",
+  "folder" : "book-01-map-view",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "09: UX ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>User eXperience (UX)</p>",
+  "folder" : "topic-09-ux",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Human Interface Design ",
+  "img" : "human-interface-design.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Covers mobile design principles and practicalities.  Designing with the User in Mind.</p>",
+  "folder" : "talk-1-human-interface-design",
+  "link" : "human-interface-design.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  }
+ ]
+  }
+
