@@ -1231,6 +1231,38 @@
     } 
    ]
 
+  },
+ {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "10: App Design ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>App Design and the User Interface (UI).</p>",
+  "folder" : "topic-10-app-design",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "App Design ",
+  "img" : "app-design.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Covers App Design, User Interface and Document-based apps.</p>",
+  "folder" : "talk-1-app-design",
+  "link" : "app-design.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
   }
  ]
   }
